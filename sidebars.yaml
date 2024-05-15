@@ -1,6 +1,5 @@
 - page: index.md
 - page: information-architecture.md
-- page: experience-review.md
 - page: api-comparison.md
   label: APIs comparison
 - group: Museum API
@@ -11,14 +10,18 @@
     - page: ./openapi/museum.yaml
     - page: ./openapi/changelog.md
       label: Changelog
-- group: Petstore API
+- group: Petsstore API
   menuStyle: drilldown
   items:
-    - page: ./openapi/petstore.yaml
+    - page: ./openapi/petsstore.yaml
     - page: ./openapi/changelog.md
       label: Changelog
 - group: Train travel API
   menuStyle: drilldown
   items:
     - page: ./openapi/train-travel.yaml
+- group: Reviews
+  items:
+    - page: ./reviews/experience-review.md
+    - page: ./reviews/training-3-debrief.md
 

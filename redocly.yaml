@@ -54,3 +54,7 @@ theme:
       property: crew-name
       label: Crew
       default: No Crew
+
+redirects:
+  '/openapi/petstore/*': 
+    to: '/openapi/petsstore/*'
