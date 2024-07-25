@@ -29,7 +29,7 @@ This feature above requires time to implement, but as an easier start, we can pr
 
 
 Here is a simple diagram illustrating what I mean by simplifying project creation: 
-![project-creation-suggestion](/images/debrief-13-project-creation-suggestion.png)
+![project-creation-suggestion](/images/debrief-3-project-creation-suggestion.png)
 
 1. Create project like we do now + allow cloning the project locally (with push functionality) and the ability to switch the project to an external Git provider by pushing the content.
 2. Push template to external git provider. External provider will be the source of truth.
