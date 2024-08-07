@@ -25,7 +25,7 @@ tags:
     description: Other endpoints are described here.
 paths:
   /:
-    get:
+    groot:
       tags:
         - Other
       operationId: GetRoot
@@ -48,7 +48,6 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/activity'
       responses:
         '204':
           description: OK (no content).
