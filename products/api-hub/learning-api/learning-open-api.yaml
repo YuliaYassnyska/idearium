@@ -5,7 +5,7 @@ info:
   title: Learning API Demo
   version: v1
   termsOfService: https://impossiblemissionsforce.com/terms
-  description: This is a mock API. It is for demo and learning purposes. The server URL is powered by a Remockly mock server. You can send curl requests and use the try it console to interact with the mock API.
+  description: This is a mock API. 
 tags:
   - name: Activities
     description: Endpoints related to learning activities, such as lessons, videos, and interactive exercises. Use these APIs to create, update, retrieve, and delete learning activities.
