@@ -1,1 +1,1 @@
-# idearium 2
+# idearium
