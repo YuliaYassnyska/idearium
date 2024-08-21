@@ -11,6 +11,6 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "@redocly/realm": "0.92.5"
+    "@redocly/realm": "0.93.1"
   }
 }
