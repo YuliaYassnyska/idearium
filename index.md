@@ -1,6 +1,6 @@
 {% partial file="/_partials/danger-admonition.md" /%}
 
-# Welcome to Idearium
+# Welcome to Idearium 2
 
 We are pleased to welcome you to our <strong>"API Showdown"</strong> website! Here you will find information about three of the most popular and interesting public APIs:
 
