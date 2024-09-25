@@ -9,13 +9,3 @@
 :root .dark {
   --footer-column-divider-color: transparent;
 }
-
-/* :root [class*="Footer__FooterColumnsSection"] > div:first-of-type > div:first-of-type {
-  background-image: url('images/idearium-black.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  color: transparent;
-  width: 120px;
-  height: 100px;
-} */
