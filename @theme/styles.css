@@ -3,4 +3,9 @@
   --h2-text-color: #bb85ff;
   --h3-text-color: #4d97ff;
   --h4-text-color: #6bbd5b;
+  --footer-column-divider-color: transparent;
+}
+
+:root .dark {
+  --footer-column-divider-color: transparent;
 }

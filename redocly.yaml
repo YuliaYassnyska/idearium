@@ -31,6 +31,32 @@ navbar:
         - page: /vendors/github/graphql/schema.docs.graphql
           label: GitHub GraphQL API
 
+footer:
+  items: 
+    - group: Social
+      items:
+        - href: /
+          icon: images/facebook.png
+        - href: /
+          icon: images/youtube.png
+        - href: /
+          icon: images/instagram.png
+    - group: Best trainings
+      items:
+        - page: debriefs/training-10-debrief.md
+          label: Protected content
+        - page: debriefs/training-11-debrief.md
+          label: RBAC - Role-Based Access Control
+        - page: debriefs/training-12-debrief.md
+          label: A dozen demands
+    - group: Not bad trainings
+      items:
+        - page: debriefs/training-13-debrief.md
+          label: Get started again
+        - page: debriefs/training-14-debrief.md
+          label: The great divide
+        - page: debriefs/training-15-debrief/index.md
+          label: CICD
 products:
   museum:
     name: Museum
