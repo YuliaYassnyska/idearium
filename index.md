@@ -16,7 +16,7 @@ Thank you for choosing our site! Start your journey into the API world right now
 
 ![giphy](images/giphy.gif)
 
-{% cards %}
+{% cards columns=3 %}
   {% card title="First card" variant="filled" %}
     I'm a **card**. 
   {% /card %}
