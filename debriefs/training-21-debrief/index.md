@@ -14,3 +14,5 @@ However, this works in a newly created project. There may be some configuration 
 ![Arc_2024-10-10_11.51_SzJQ2F1W.png](./Arc_2024-10-10_11.51_SzJQ2F1W.png)
 * Greg have an issue with acceability when he add some thext it become yellow and can't see what text is selected:
 ![Arc_2024-10-10_11.39_kLrEONuq.png](./Arc_2024-10-10_11.39_kLrEONuq.png)
+* Greg broke Pull request creation:
+![Arc_2024-10-10_12.02_O1CGGCed.png](./Arc_2024-10-10_12.02_O1CGGCed.png)
