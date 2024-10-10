@@ -15,3 +15,15 @@ Thank you for choosing our site! Start your journey into the API world right now
 <br />
 
 ![giphy](images/giphy.gif)
+
+{% cards columns=3 %}
+  {% card title="First card" variant="filled" %}
+    I'm a **card**. 
+  {% /card %}
+  {% card title="Second card" variant="filled" %}
+    I'm a card, _too_.
+  {% /card %}
+  {% card title="Third card" variant="filled" %}
+    I'm actually a brochure.
+  {% /card %}
+{% /cards %}

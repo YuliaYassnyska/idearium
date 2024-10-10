@@ -11,8 +11,7 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "@redocly/realm": "0.103.0",
-    "@redocly/theme": "^0.40.6"
+    "@redocly/realm": "0.105.0"
   },
   "devDependencies": {
     "prettier": "^3.3.3"
