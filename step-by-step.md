@@ -1,5 +1,9 @@
 ---
 template: './@theme/Templates/SideBySide.tsx'
+seo:
+  title: Step-by-step guide to special museum events
+  description:  Learn how to find, purchase, and retrieve QR code for entry to special events at the museum using the API.
+  image: ./images/SEO%20step-by-step%20guide.png
 ---
 
 # How to buy a ticket for a special event in the museum?
