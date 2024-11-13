@@ -115,7 +115,7 @@ scorecard:
     default: No Crew
 
 feedback:
-  type: mood
+  type: rating
 
 l10n:
   defaultLocale: en-US
