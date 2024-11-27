@@ -1,0 +1,11 @@
+# @redocly-chunk {"steps": ["step1"]}
+test: Hello there 1
+# @redocly-chunk-end
+# @redocly-chunk {"steps": ["step2"]}
+test: Hello there 2
+test: Hello there 3
+# @redocly-chunk-end
+test: Hello there 4
+# @redocly-chunk {"steps": ["step3"]}
+test: Hello there 5
+# @redocly-chunk-end
