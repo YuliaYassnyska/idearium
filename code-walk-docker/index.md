@@ -31,7 +31,7 @@ To organize your content into version subfolders:
     id: "yaml",
     name: "Yaml",
     group: "yaml",
-    files: ["examples/redocly.yaml", "examples/versions.yaml", "examples/sidebars.yaml"]
+    files: ["examples/versions.yaml", "examples/sidebars.yaml"]
   }]
   groups=[{
     id: "yaml",
