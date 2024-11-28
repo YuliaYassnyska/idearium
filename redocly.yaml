@@ -137,5 +137,5 @@ rbac:
       'Beta Testers': read
 
 ignore:
-  - 'code-walk-docker/examples/redocly.yaml'
+  - 'code-walk-docker/examples/sidebars.yaml'
   - 'code-walk-docker/examples/versions.yaml'
