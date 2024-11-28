@@ -1,0 +1,10 @@
+# @redocly-chunk {"steps": ["step2-1"]}
+default: latest
+# @redocly-chunk-end
+# @redocly-chunk {"steps": ["step2-2"]}
+versions:
+  - version: legacy
+    name: Legacy version
+  - version: latest
+    name: Latest version
+# @redocly-chunk-end
