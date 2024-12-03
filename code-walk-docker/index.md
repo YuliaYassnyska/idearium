@@ -27,13 +27,13 @@ To organize your content into version subfolders:
 ```
 
 {% code-walkthrough
-  languages=[{
+  filesets=[{
     id: "yaml",
     name: "Yaml",
     group: "yaml",
     files: ["examples/versions.yaml", "examples/sidebars.yaml"]
   }]
-  groups=[{
+  filters=[{
     id: "yaml",
     default: "yaml"
   }]
