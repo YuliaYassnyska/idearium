@@ -135,3 +135,7 @@ rbac:
       redocly.owners: maintain
       redocly.members: read
       'Beta Testers': read
+
+ignore:
+  - 'code-walk-docker/examples/sidebars.yaml'
+  - 'code-walk-docker/examples/versions.yaml'
