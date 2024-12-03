@@ -2,6 +2,8 @@
 - page: information-architecture.md
 - page: api-comparison.md
   label: APIs comparison
+- page: code-walk-docker/index.md
+  label: Code Walkthrough  
 
 #  The API catalog does not work together if a page is also included in the sidebars.
 
