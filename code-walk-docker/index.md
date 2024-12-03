@@ -34,8 +34,9 @@ To organize your content into version subfolders:
     files: ["examples/versions.yaml", "examples/sidebars.yaml"]
   }]
   filters=[{
-    id: "yaml",
-    default: "yaml"
+    "api": {
+      "label": "yaml",
+      "items": ["yaml"]
   }]
 %}
   ## Customize the sidebar containing versioned content
@@ -48,11 +49,11 @@ To organize your content into version subfolders:
   
   ### Customize a sidebar for versioned content using the `directory` option
 
-  {% step id="step1-1" title="Step 1" %}
+  {% step id="step1-1" heading="Step 1" %}
     Add a `directory` option for each folder containing versioned content in your `sidebars.yaml` file, as in the following example
   {% /step %}
 
-  {% step id="step1-2" title="Step 2" %}
+  {% step id="step1-2" heading="Step 2" %}
     As the values for the `directory` keys, add paths to the folders containing versioned content, as in the following example
   {% /step %}
 
@@ -61,12 +62,12 @@ To organize your content into version subfolders:
   By default, the order of versions in the version picker is the same as the folder structure in the project, in the alphanumeric ascending order. The version that opens when you navigate to versioned file, is by default the version last in the order.
   You can customize which versions appear in the version picker, the order of the versions, and the version that opens by default.
 
-  {% step id="step2-1" title="Step 1" %}
+  {% step id="step2-1" heading="Step 1" %}
     Create a versions.yaml file on the same level as your version subfolders. \
     In the file, set the default version to display by adding a default object with the `default` version subfolder's name, without the `@` sign, as the value, as in the following example
   {% /step %}
 
-  {% step id="step2-2" title="Step 2" %}
+  {% step id="step2-2" heading="Step 2" %}
     Add a `versions` object, and inside it a map of `version` objects with version subfolder names as values, excluding the `@`, as in the following example
   {% /step %}
 
