@@ -139,3 +139,4 @@ rbac:
 ignore:
   - 'code-walk-docker/examples/sidebars.yaml'
   - 'code-walk-docker/examples/versions.yaml'
+  - 'code-walk-docker/index.md'
