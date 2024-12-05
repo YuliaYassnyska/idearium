@@ -59,14 +59,46 @@ The updated prompt is visible in the `revised_prompt` field of the data response
 
 <!-- TODO: try to use preview feature for this prompt -->
 
-prompt - A photograph of a white Siamese cat.
-picture - ./assets/simple-cat-image-dall-e-3.webp
-
-Each image can be returned as either a URL or Base64 data, using the response_format parameter. URLs will expire after an hour.
+{% code-walkthrough
+  filesets=[
+    { "files": [ "./assets/simple-cat-image-dall-e-3.webp"] }
+  ]
+%}
+  {% step id="unknown" heading="A photograph of a white Siamese cat"%}
+    Each image can be returned as either a URL or Base64 data, using the response_format parameter. URLs will expire after an hour.
+  {% /step %}
+{% /code-walkthrough %}
 
 ### Edits (DALL·E 2 only)
 
 Also known as "inpainting", the image edits endpoint allows you to edit or extend an image by uploading an image and mask indicating which areas should be replaced. The transparent areas of the mask indicate where the image should be edited, and the prompt should describe the full new image, not just the erased area. This endpoint can enable experiences like DALL·E image editing in ChatGPT Plus.
+
+{% code-walkthrough
+  filters={
+    language: {
+      label: "Language",
+      items: ["Nodejs", "curl", "Python"]
+    }
+  }
+  filesets=[
+    { "files": [ "curl/edit-image.sh"], when: { language: "curl" } },
+    { "files": [ "node/edit-image.js"], when: { language: "Nodejs" } },
+    { "files": [ "python/edit-image.py"], when: { language: "Python" } }
+  ]
+%}
+  {% step id="edit-image" heading="Edit image"%}
+    Each image can be returned as either a URL or Base64 data, using the response_format parameter. 
+    URLs will expire after an hourThe uploaded image and mask must both be square PNG images less than 4MB in size, 
+    and also must have the same dimensions as each other. The non-transparent areas of the mask are not used when generating the output, 
+    so they don't necessarily need to match the original image like the example above.
+  {% /step %}
+  {% step id="edit-image-variables" heading="Fill out the form"%}
+    You can play with the filed values by using the form above:
+    {% input id="image-width" placeholder="Enter image width.." label="Image width" value="100" /%}
+    {% input id="image-height" placeholder="Enter image height.." label="Image height" value="100" /%}
+    {% input id="image-n" placeholder="Enter N.." label="N" value="1" /%}
+  {% /step %}
+{% /code-walkthrough %}
 
 <!-- TODO: highlight edit-image script entirely -->
 <!-- TODO: provide variables for fields -->
@@ -78,7 +110,6 @@ mask - ./assets/image_edit_mask.webp
 output - ./assets/image_edit_output.webp
 Prompt: a sunlit indoor lounge area with a pool containing a flamingo
 
-The uploaded image and mask must both be square PNG images less than 4MB in size, and also must have the same dimensions as each other. The non-transparent areas of the mask are not used when generating the output, so they don’t necessarily need to match the original image like the example above.
 
 ### Variations (DALL·E 2 only)
 
