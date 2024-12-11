@@ -1,0 +1,60 @@
+// [!code word:style]
+<!doctype html>
+<html>
+  <head>// [!code ++]
+      <head>// [!code --]
+    <title>Some website</title> // [!code highlight]
+    <!-- needed for adaptive design -->
+    <meta charset="utf-8" /> // [!code warning]
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="application/javascript" src="http://ourcdn.com/code/widgets/cool-widget.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Source+Code+Pro:400:700"
+      rel="stylesheet"
+    /> // [!code error]
+    <style> // [!code error]
+      body { // [!code error]
+        margin: 0; // [!code error]
+        padding: 0; // [!code error]
+      } 
+    </style>  // [!code error]
+  </head>  
+
+  <body>// [!code highlight:3]
+    <div id="main-content">
+        <!--   Some content goes here     -->
+        
+        <b>Buttons section 1</b>    
+        <button id="toggle-info-section">Toggle Info Section</button>
+        <button id="toggle-download-buttons">Toggle Download Buttons</button>
+        <button id="toggle-hide-info-section">Toggle Hide Info Section</button>
+            
+        <b>Buttons section 2</b>
+        <button id="toggle-hide-download-buttons">Toggle Hide Download Buttons</button>
+        <button id="toggle-hide-info-section-and-download-buttons">Toggle Hide Info Section and Download Buttons</button>
+            
+    </div>
+    <footer>
+        <p>Some footer content</p> // [!code focus]
+    </footer>
+  </body>// [!code warning]
+  <script>
+        // Simple function that shows an alert
+        function style() { // [!code error]
+            document.getElementById("demo").innerHTML = "Hello! You clicked the button!";
+        }
+
+        // Example of event listener
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Page is loaded!'); // [!code ++]
+            console.log('Page x loaded!'); // [!code --]
+        });
+
+        // Simple counter example
+        let count = 0;
+        function increaseCount() {
+            count++;
+            console.log('Current count:', count);
+        }
+    </script>
+</html>

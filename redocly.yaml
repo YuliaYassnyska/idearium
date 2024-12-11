@@ -30,6 +30,8 @@ navbar:
           label: GitHub V3 REST API
         - page: /vendors/github/graphql/schema.docs.graphql
           label: GitHub GraphQL API
+    - page: /widget
+      label: Widget
 
 footer:
   items: 
